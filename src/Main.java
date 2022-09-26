@@ -39,6 +39,13 @@ public class Main {
         System.out.println("Общий вес боксеров " + boxers + " кг!");
         var boxersWeight = boxer2 - boxer1;
         System.out.println("Разница в весе " + boxersWeight + " кг!");
+        boxersWeight = boxer2 - boxer1;
+        System.out.println("Разница в весе " + boxersWeight + " кг, первый способ!");
+        var remainder = (boxer2 / boxer1) % boxersWeight;
+        System.out.println("Остаток от деления " + remainder + " кг!" );
+
+
+
 
 
 
